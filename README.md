@@ -33,7 +33,10 @@ to reverse the variable Boolean true—false false—true. (!)
 
 ## `Differences between the variables`
 1.	we can not redeclare with led keyword but that’s possible with var keyword
-2.	But we can reassigned with let. Exmp: let c= “Ismail” c= 12
-3.	You can not reassigned const variable. That can be understandable from the name constant
-4.	When I want to not change a variable so that I have to create const variable. But I want to reassigned later, I have to create let variables. But I want to both reassign and redeclare var variables
+2.	But we can be reassigned with let. Exmp: let c= “Ismail” c= 12
+3.	You cannot reassign const variable. That can be understandable from the name constant
+4.	When I want to not change a variable so that I must create const variable. But I want to be reassigned later, I have to create let variables. But I want to both reassign and redeclare var variables
+
+
+
 
