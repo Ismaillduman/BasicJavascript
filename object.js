@@ -13,3 +13,10 @@ person.gender='male' // you can create a new feature
 console.log(person) 
 delete person.gender
 console.log(person)
+
+console.log('gender' in person)// boolean true or false check to in a object consist of gender
+
+//print all the values of the javascript object
+for(let key in person){
+    console.log(person[key])
+}
