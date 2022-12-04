@@ -151,5 +151,5 @@ This example accesses the fullName() method of a person object
 
 [import export Link](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 
-#`Inheritance`
+# `Inheritance`
 [Inheritance Link](https://www.w3schools.com/js/js_class_inheritance.asp)
