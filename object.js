@@ -2,9 +2,13 @@
 
 let person= {
     firstName: 'Alex',
-    lastName:'deSouza'
+    lastName:'deSouza',
+    age:10,
+    fullname: function(){
+        console.log(this.firstName+this.lastName)//we can concatenate with 'this', keyword
+    }
 }
-
+console.log(person.fullname())
 console.log(person.firstName) // Alex
 console.log(person['lastName']) 
 person.firstName= 'Yusuf' // you can reassigned
