@@ -39,7 +39,7 @@ to reverse the variable Boolean true—false false—true. (!)
 
 
 
-# `Do while and While Loop`
+## `Do while and While Loop`
 
 While loop checks the condition first and then executes the statement(s), whereas do while loop will execute the statement(s) at least once, then the condition is checked. 
 But if you want to execute code once and then monitor status, then go with the do while loop.
@@ -68,13 +68,13 @@ Important Note: the Slice( ) method can also be used for strings.
 
 
 
-# `Splice ( )`
+## `Splice ( )`
 The name of this function is very similar to slice( ). This naming similarity often confuses developers. The splice( ) method changes an array, by adding or removing elements from it. Let’s see how to add and remove elements with splice( ):
 Removing Elements
 For removing elements, we need to give the index parameter, and the number of elements to be removed:
 array.splice(index, number of elements);
  
-# `Adding Elements`
+## `Adding Elements`
 For adding elements, we need to give them as the 3rd, 4th, 5th parameter (depends on how many to add) to the splice ( ) method:
 array.splice(index, number of elements, element, element);
 As an example, I’m adding a and b in the very beginning of the array and I remove nothing:
@@ -94,7 +94,7 @@ let newArray = myString.split(",", 3);
 
 
 
-# `A Basic Reduction`
+## `A Basic Reduction`
 Use it when: You have an array of amounts and you want to add them all up.
 ```javascript 
 const euros = [29.76, 41.85, 46.5];
@@ -112,17 +112,17 @@ How to use it:
 •	When there are no more numbers left in the array the method returns the total value.
 
 
-# `REDUCE FILTER MAP`
+## `REDUCE FILTER MAP`
 
 [ReduceFilter Link](https://dev.to/nehal_mahida/filter-map-and-reduce-in-js-when-and-where-to-use-281c)
 
 
-# `JavaScript Methods`
+## `JavaScript Methods`
 JavaScript methods are actions that can be performed on objects.
 A JavaScript method is a property containing a function definition.
 
 
-# `Object methods`
+## `Object methods`
 ```Javascript
 const person = {
   firstName: "John",
@@ -133,7 +133,7 @@ const person = {
   }
 };
 ```
-# `Accessing Object Methods`
+## `Accessing Object Methods`
 
 You access an object method with the following syntax:
 ```javascript 
@@ -143,13 +143,13 @@ You will typically describe fullName() as a method of the person object, and ful
 The fullName property will execute (as a function) when it is invoked with ().
 This example accesses the fullName() method of a person object
 
-# `Class`
+## `Class`
 
 [class link](https://javascript.info/class)
 
-# `Javascript import and export`
+## `Javascript import and export`
 
 [import export Link](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 
-# `Inheritance`
+## `Inheritance`
 [Inheritance Link](https://www.w3schools.com/js/js_class_inheritance.asp)
